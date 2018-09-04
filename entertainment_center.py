@@ -1,6 +1,7 @@
 import media
 import fresh_tomatoes
 
+#creates objects of Movie class and initialises them
 godfather = media.Movie("The Godfather",
                         "Story of Italian-American crime family of " +
                         "Don Vito Corleone",
@@ -43,8 +44,9 @@ dunkirk = media.Movie("Dunkirk",
                       "cTaI_fYkgKQAFgpAHFbngJZ5IsbOKebH15QaCezWrFVwYV6wXm9",
                       "https://www.youtube.com/watch?v=F-eMt3SrfFU")
 
-
+# defines movie array list
 movies = [godfather, avatar, ratatouille,
           interstellar, the_dark_knight, dunkirk]
 
+#calls the utility to open movies page. Uses the movie array list as argument.
 fresh_tomatoes.open_movies_page(movies)

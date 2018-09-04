@@ -1,6 +1,6 @@
 import webbrowser
 
-
+# defines a new class Movie and attributes of its objects
 class Movie():
     def __init__(self, title, storyline,
                  poster_image_url, trailer_youtube_url):
